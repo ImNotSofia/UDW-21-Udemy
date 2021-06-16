@@ -15,8 +15,8 @@
 
         <body> <!--Para poner un background color que utilice toda la página deberíamos agregarlo en esta etiqueta body-->
 
-            <h1 style="color: blue; font-size: 50px; font-family: 'Courier New', Courier, monospace;">Universidad HTML</h1> <!--Se pueden agregar varios parametros de estilos,
-            estos se dividen por punto y coma.-->
+            <h1><!--style="color: blue; font-size: 50px; font-family: 'Courier New', Courier, monospace;" Se pueden agregar varios parametros de estilos,
+            estos se dividen por punto y coma.--> Universidad HTML</h1>
 
             <!-- <p>Primer línea del párrafo <br> segunda línea</p> Las etiquetas como br, es decir, las que no tienen cierre porque no cuentan con contenido
             dentro, pueden cerrarse con /, y se considera de "buena práctica", de igual manera me parece algo obsoloeto, así que decidí no utilizarlo.-->
@@ -25,7 +25,7 @@
 
             <!-- <p>Segundo párrafo</p> -->
 
-            <img src="Imagenes/html5.png" alt="Logo HTML5" width="100px" title="Logo HTML5"> <!--De esta manera se agregan imagenes de manera "local".-->
+            <!-- <img src="Imagenes/html5.png" alt="Logo HTML5" width="100px" title="Logo HTML5"> De esta manera se agregan imagenes de manera "local".-->
 
             <!--<img src="https://globalmentoring.com.mx/imagenes/css3.png" alt="Logo CSS3" width="150px"> De esta manera se agregan imagenes por medio de un servidor en internet.-->
 
@@ -34,7 +34,7 @@
             De igual manera, width es para cambiar el ancho, también se puede cambiar el alto, pero pasar los dos parametros puede llegar a deformar la imagen.
             Title, por su parte, es lo que va a aparecer en caso de poner el cursor sobre, esto se puede agregar en la mayoría de etiquetas HTML.-->
 
-            <p title="Párrafo" style="color: #FFDADA; background-color: black;">This is my voice!</p>
+            <!-- <p title="Párrafo" style="color: #FFDADA; background-color: black;">This is my voice!</p>
 
             <p title="R u mocking me?" style="color: blue;">You're imitating the god-man</p>
 
@@ -47,10 +47,23 @@
 
             <a href="https://twitter.com/home">Ir a Twitter</a> 
 
-            <br> <!-- Salto de línea ya que sin esto los links quedan uno al lado del otro-->
+            <br> Salto de línea ya que sin esto los links quedan uno al lado del otro
 
-            <a href="practicepage.html">Ir a página de ejemplo</a> <!-- Si vamos a arraigar el href a otro archivo html, al estar dentro de las comillas y apretar ctrl + space
+            <a href="practicepage.html">Ir a página de ejemplo</a> Si vamos a arraigar el href a otro archivo html, al estar dentro de las comillas y apretar ctrl + space
             aparece los archivos dentro de la carpeta-->
+
+            <p><b>Primer</b> párrafo</p>
+            <p><strong>Segundo</strong> párrafo</p> <!--Visualmente Bold y Strong son iguales, pero a nivel semantico del código, strong es cuando es importante y bold es simplemente
+            negrita-->
+            <p><i>Tercer</i> párrafo</p>
+            <p><em>Cuarto</em> párrafo</p> <!--Visualmente Italic y em son iguales, pero de nuevo, a nivel semantico, em es para enfatizar, mientras que italic es simplemente
+            cursiva-->
+            <p><small>Quinto</small> párrafo</p> <!--Hace la letra más pequeña-->
+            <p><mark>Sexto</mark> párrafo</p> <!--Marca igual que un resaltador-->
+            <p><del>Septimo</del> párrafo</p> <!--Tacha lo escrito, viene de la palabra delete-->
+            <p><ins>Octavo</ins> párrafo</p> <!--De la palabra insertar, subraya lo escrito-->
+            <p><sub>N</sub>oveno párrafo</p> <!--Se transforma en un subindice-->
+            <p><sup>D</sup>ecimo párrafo</p> <!--Se transforma en un superindice-->
 
 
         </body>
